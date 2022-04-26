@@ -1,0 +1,56 @@
+body {
+  display: grid;
+  place-items: center;
+  font-size: 33px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+}
+
+.aktive {
+  display: grid;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 11rem;
+  width: 41vw;
+  height: 54vh;
+  transition: all 1000ms;
+  opacity: 1;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: absolute;
+  z-index: -1;
+}
+
+img {
+  opacity: 0.6;
+  width: 10vw;
+  height: 15vh;
+  transition: all 1000ms;
+}
+.span2 {
+  opacity: 1;
+  bottom: 0;
+  background-image: url("tv.png");
+  width: 50vw;
+  height: 75vh;
+  position: absolute;
+  background-position: bottom;
+  background-size: cover;
+  z-index: -2;
+  transition: all 2000ms;
+}
+span {
+  opacity: 0.6;
+  bottom: 0;
+  background-image: url("tv.png");
+  width: 10vw;
+  height: 18vh;
+  position: absolute;
+  background-position: bottom;
+  background-size: cover;
+  transition: all 2000ms;
+  z-index: -2;
+}
